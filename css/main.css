@@ -121,7 +121,11 @@ iframe {
 [ Table ]*/
 table {
   width: 100%;
-  background-color: #FFF5F5;
+  /*background-color: #1c92d2;*/
+background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D1EAFB, #FAFCFD, #DDF3FA) ;  
+background: linear-gradient(to right, #D1EAFB, #FAFCFD, #DDF3FA); 
+
 }
 
 th, td {
@@ -163,24 +167,24 @@ th, td {
   line-height: 1.4;
   text-transform: uppercase;
 
-  background-color: #fa4251;
+  background-color: #1F618D;
 }
 
 .table100.ver4 .row100:hover td {
-  color: #fa4251;
+  color: #02728D ;
 }
 
 .table100.ver4 .hov-column-ver4 {
-  background-color: #ffebed;
+  background-color: #E2F4FE;
 }
 
 .table100.ver4 .hov-column-head-ver4 {
-  background-color: #f95462 !important;
+  background-color: #6CABD5 !important;
 }
 
 .table100.ver4 .row100 td:hover {
-  background-color: #ffebed;
-  color: #fa4251;
+  background-color: #E2F4FE;
+  color: #1F618D;
 }
 
 
@@ -201,7 +205,7 @@ button {
       -webkit-border-radius: 5px; 
       -moz-border-radius: 5px; 
       border-radius: 5px; 
-      background-color: #FF5F5F;
+      background-color: #1F618D;
       font-size: 16px;
       color: #fff;
       cursor: pointer;

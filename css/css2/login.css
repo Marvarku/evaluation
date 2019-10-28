@@ -9,23 +9,23 @@
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('/Applications/Mamp/htdocs/itcassessment/fonts/fonts2/poppins/Poppins-Regular.ttf'); 
+  src: url('../../fonts/fonts2/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('/Applications/Mamp/htdocs/itcassessment/fonts/fonts2/poppins/Poppins-Medium.ttf'); 
+  src: url('../../fonts/fonts2/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('/Applications/Mamp/htdocs/itcassessment/fonts/fonts2/poppins/Poppins-Bold.ttf'); 
+  src: url('../../fonts/fonts2/poppins/Poppins-Bold.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('/Applications/Mamp/htdocs/itcassessment/fonts/fonts2/poppins/Poppins-SemiBold.ttf'); 
-}
+  src: url('/../../fonts/fonts2/poppins/Poppins-SemiBold.ttf'); 
+} 
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -37,6 +37,7 @@
 }
 
 body, html {
+
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
 }
